@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NumberGuessingGame</string>
+    <string name="app_title">Number Guessing Game!!</string>
+    <string name="app_info">Try and guess the number I\'m thinking of, from 1 to 1000!</string>
+    <string name="play_again">Play Again!!</string>
+    <string name="hint">#</string>
+    <string name="enter">Enter</string>
+    <string name="congrats" >Congratulations! Are you a mind reader or sth? Maybe.
+        Click play again if you think you can do it twice. </string>
+    <string name="tries">Number of tries: 0</string>
+
+</resources>
