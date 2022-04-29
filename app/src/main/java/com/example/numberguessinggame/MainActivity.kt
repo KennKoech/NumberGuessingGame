@@ -12,14 +12,15 @@ import android.widget.Toast
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
+    // When the app runs, create a random number generator and store it in a variable
     private var r = Random().nextInt(1000)
+    // Initialize a count variable to keep track of the number of tries
     private var count = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         findViewById<Button>(R.id.ok_button).setOnClickListener{checkUserEntry(it)}
         findViewById<Button>(R.id.playAgain_button).setOnClickListener{playAgain(it)}
-        // When the app runs, create a random number generator and store it in a variable
     }
     // Listen for enter button
     private fun checkUserEntry(view: View){
